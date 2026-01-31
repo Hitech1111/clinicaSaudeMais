@@ -1,0 +1,38 @@
+@media (max-width: 430px) {
+    body {
+        background-color: rgb(60, 99, 131);
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    header h1 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        background-color: rgba(75, 117, 151, 1);
+        border-radius: 5px;
+    }
+
+    header a {
+        display: flex;
+        text-decoration: none;
+        justify-content: flex-start;
+        background-color: blue;
+        color: black;
+        border-radius: 5px;
+        padding: 10px;
+        margin-left: 0.8rem;
+        margin-top: 15px;
+        max-width: 10rem;
+    }
+}
+
+@media (min-width: 431px) and (max-width: 1023px) {}
+
+@media (min-width: 1024px) {}
