@@ -10,25 +10,43 @@
 
 <body>
     <header>
+        <a href="index.html">voltar ao menu principal</a>
         <h1>informe seus dados abaixo</h1>
     </header>
     <main>
-        <label for="name">diga seu nome completo</label> <br>
         <form action="">
+            <label for="name">diga seu nome completo</label> <br>
             <input type="text" name="nome" id="name"> <br>
 
             <p>possui convênio médico?</p>
-            <label for="">
-                <input type="radio" name="aceita" id="sim">
-                sim
-            </label>
-            <label for="">
-                <input type="radio" name="aceita" id="não">
-                não
-            </label>
+            <select name="convenio" id="" required>
+                <option value="" default>selecione uma opção</option>
+                <option value="sim">sim</option>
+                <option value="nao">não</option>
+            </select> <br>
+            <p>selecione o serviço desejado</p>
+            <select name="especialidade" id="especialidade" required>
+                <option value="" default>Selecione uma opção</option>
+                <option value="ConsultasMedicas">Consultas médicas</option>
+                <option value="ExamesLaboratoriais">Exames laboratoriais</option>
+                <option value="ExamesDeImagem">Exames de imagem</option>
+            </select> <br><br>
+
+            <label for="data">Escolha a data da consulta:</label> <br>
+            <input type="date" id="data" name="data" required> <br> <br>
+
+            <button type="submit">enviar</button>
         </form>
     </main>
-    <footer></footer>
+    <footer>
+        <h4> clinica saude mais a 40 anos cuidando que quem mais importa</h4>
+        <p>telefone: <a href="tel:+55(81)9282-2999">+55(81)9282-2999</a></p>
+        <p>email: <a href="mailto:saudemais@hotmail.com">saudemais@hotmail.com</a></p>
+        <p>Gostaria de trabalhar conosco?
+            mande seu curriculo no email abaixo
+        </p>
+        <p>email: <a href="mailto:rhsaudemais@hotmail.com">rhsaudemais@hotmail.com</a></p>
+    </footer>
 </body>
 
 </html>
