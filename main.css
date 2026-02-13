@@ -121,4 +121,63 @@
 
 }
 
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+
+ body {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        background-color: rgba(75, 117, 151, 1);
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #navegation {
+        display: flex;
+        flex-direction: column;
+        background-image: url(./img/ChatGPT\ Image\ 1\ de\ dez.\ de\ 2025\,\ 22_36_10.png);
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        height: 15rem;
+        width: 100%;
+        background-position: center top;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        flex-wrap: nowrap;
+        padding-top: 14vh;
+        gap: 8vh;
+    }
+    
+    main p {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    
+    footer {
+        background-color: rgb(43, 97, 141);
+        text-align: center;
+        
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+  
+    .firstA {
+        
+        background-color: rgb(0, 180, 180);
+        margin: 10px 0;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 6px;
+        width: 25vw;
+        text-align: center;
+       
+        
+    }
+
+}
