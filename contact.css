@@ -3,7 +3,9 @@
         background-color: rgba(75, 117, 151, 1);
         padding: 0;
         margin: 0;
+        text-align: center;
     }
+
     header a {
         display: flex;
         text-decoration: none;
@@ -17,7 +19,7 @@
         max-width: 10rem;
     }
 
-    header h1{
+    header h1 {
         margin-left: 0.3rem;
     }
 
@@ -28,16 +30,50 @@
         margin-left: 0.3rem;
     }
 
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        padding: 3vh;
+        background-color: rgb(36, 100, 153);
+        border-radius: 10px;
+        box-shadow: 0 0 10px black;
+    }
+
     select {
+        padding: 1.5px;
         border-radius: 5px;
+    }
+
+    .formulario {
+        padding: 0;
+        margin: 10px;
+        font-size: large;
     }
 
     input {
+        padding: 1.5px;
         border-radius: 5px;
     }
 
+    label {
+        padding: 1.5px
+    }
+
     button {
-        border-radius: 5px;
+        padding: 8px 30px;
+        margin-top: 2vh;
+        border-radius: 20px;
+        background-color: rgb(0, 180, 180);
+        transition: scale, 1.5s ease;
+        cursor: pointer;
+    }
+
+    button:hover {
+        scale: 110%
     }
 
     footer {
@@ -55,11 +91,13 @@
 
 @media (min-width: 431px) and (max-width: 1023px) {
 
-   body {
+    body {
         background-color: rgba(75, 117, 151, 1);
         padding: 0;
         margin: 0;
+        text-align: center;
     }
+
     header a {
         display: flex;
         text-decoration: none;
@@ -73,7 +111,7 @@
         max-width: 10rem;
     }
 
-    header h1{
+    header h1 {
         text-align: center;
         margin-left: 0.3rem;
     }
@@ -82,26 +120,64 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin-bottom: 0.5rem;
-        margin-left: 0.3rem;
+        align-items: center;
+    }
+
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 520px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        padding: 3vh;
+        background-color: rgb(36, 100, 153);
+        border-radius: 10px;
+        box-shadow: 0 0 10px black;
     }
 
     select {
+        padding: 1.5px;
         border-radius: 5px;
+    }
+
+    .formulario {
+        padding: 0;
+        margin: 10px;
+        font-size: large;
     }
 
     input {
+        padding: 1.5px;
         border-radius: 5px;
+    }
+
+    label {
+        padding: 1.5px
     }
 
     button {
-        border-radius: 5px;
+        padding: 8px 30px;
+        margin-top: 2vh;
+        border-radius: 20px;
+        background-color: rgb(0, 180, 180);
+        transition: scale, 1.5s ease;
+        cursor: pointer;
     }
 
+    button:hover {
+        scale: 110%
+    }
+
+
     footer {
-        text-align: center;
+        /* text-align: center; */
         background-color: rgb(43, 97, 141);
         padding: 0.8rem;
+      
     }
 
     footer a {
@@ -117,7 +193,9 @@
         background-color: rgba(75, 117, 151, 1);
         padding: 0;
         margin: 0;
+        text-align: center;
     }
+
     header a {
         display: flex;
         text-decoration: none;
@@ -131,29 +209,64 @@
         max-width: 10rem;
     }
 
-    header h1{
+    header h1 {
         text-align: center;
         margin-left: 0.3rem;
     }
-
-    main {
+ main {
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin-bottom: 0.5rem;
-        margin-left: 0.3rem;
+        align-items: center;
+    }
+
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 450px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        padding: 3vh;
+        background-color: rgb(36, 100, 153);
+        border-radius: 10px;
+        box-shadow: 0 0 10px black;
     }
 
     select {
+        padding: 1.5px;
         border-radius: 5px;
+    }
+
+    .formulario {
+        padding: 0;
+        margin: 10px;
+        font-size: large;
     }
 
     input {
+        padding: 1.5px;
         border-radius: 5px;
     }
 
+    label {
+        padding: 1.5px
+    }
+
     button {
-        border-radius: 5px;
+        padding: 8px 30px;
+        margin-top: 2vh;
+        border-radius: 20px;
+        background-color: rgb(0, 180, 180);
+        transition: scale, 1.5s ease;
+        cursor: pointer;
+    }
+
+    button:hover {
+        scale: 110%
     }
 
     footer {
